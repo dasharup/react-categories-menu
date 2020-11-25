@@ -24,7 +24,7 @@ export const InfoBox = () => {
           <li>
             <a
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://www.npmjs.com/package/react-hyper-tree"
             >
               react-hyper-tree
@@ -33,7 +33,7 @@ export const InfoBox = () => {
           <li>
             <a
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://www.npmjs.com/package/react-contexify"
             >
               react-contextify

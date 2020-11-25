@@ -4,23 +4,49 @@ export const db = {
   categories: [
     {
       id: genID(),
-      name: "node-0",
+      name: "Furniture",
+      open: false,
+      subNodes: []
+    },
+    {
+      id: genID(),
+      name: "Electronics",
       open: false,
       subNodes: [
         {
           id: genID(),
-          name: "node-0-0",
+          name: "Cell phones",
+          open: false,
+          subNodes: []
+        },
+        {
+          id: genID(),
+          name: "Cameras",
           open: false,
           subNodes: [
             {
               id: genID(),
-              name: "node-0-0-0",
+              name: "Accessories",
               open: false,
-              subNodes: []
+              subNodes: [
+                {
+                  id: genID(),
+                  name: "Pendrive",
+                  open: false,
+                  subNodes: [
+                    {
+                      id: genID(),
+                      name: "Pendrive part 2",
+                      open: false,
+                      subNodes: []
+                    }
+                  ]
+                }
+              ]
             },
             {
               id: genID(),
-              name: "node-0-0-1",
+              name: "Digital Cameras",
               open: false,
               subNodes: []
             }
@@ -28,7 +54,7 @@ export const db = {
         },
         {
           id: genID(),
-          name: "node-0-1",
+          name: "Computers",
           open: false,
           subNodes: []
         }
@@ -36,16 +62,9 @@ export const db = {
     },
     {
       id: genID(),
-      name: "node-1",
+      name: "Apparel",
       open: false,
-      subNodes: [
-        {
-          id: genID(),
-          name: "node-1-0",
-          open: false,
-          subNodes: []
-        }
-      ]
+      subNodes: []
     }
   ]
 };

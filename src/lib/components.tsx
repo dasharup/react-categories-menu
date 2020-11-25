@@ -146,7 +146,7 @@ const expandStyle = {
   textAlign: "center"
 };
 const ExpandIcon: React.FC<Pick<INode, "open">> = ({ open }) =>
-  open ? <b style={expandStyle}> - </b> : <b style={expandStyle}> + </b>;
+  open ? <b style={{...expandStyle, textAlign: "center"}}> - </b> : <b style={{...expandStyle, textAlign: "center"}}> + </b>;
 
 /**********
  * @description used for displaying node name
